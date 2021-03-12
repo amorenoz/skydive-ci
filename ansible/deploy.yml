@@ -78,6 +78,7 @@
     with_items:
        - unzip
        - wget
+       - make
        - https://www.rdoproject.org/repos/rdo-release.rpm
   - copy:
       content: |
